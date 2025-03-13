@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar p {
+    margin: 5px 0 15px;
+}
+
+.nav-links {
+    margin-top: 10px;
+}
+
+.anch {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.anch:hover {
+    text-decoration: underline;
+}
+
+.search {
+    display: inline-block;
+    position: relative;
+}
+
+.search input {
+    font-size: 15px; 
+    height: 50px; 
+    width: 100%; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    box-shadow: #ccc;
+}
+
+.img {
+    position: absolute; 
+    right: 10px; 
+    top: 10px; 
+    color: #333; 
+    width: 5px;
+    height: 5px;
+}
+
+.hero {
+    background-color: #eaeaea;
+    padding: 40px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px; 
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    max-width: 150px; 
+    border-radius: 5px; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+}
